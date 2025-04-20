@@ -1,0 +1,42 @@
+.keyboard {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 500px;
+    margin: 0 auto;
+    justify-content: center;
+    gap: 8px;
+}
+
+.keyboard-button {
+    width: 40px;
+    height: 40px;
+    border: 2px solid #4e4e4e;
+    background-color: #f8f9fa;
+    border-radius: 4px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: all 0.2s;
+    color: #000;
+}
+
+.keyboard-button:hover:not(:disabled) {
+    background-color: #e9ecef;
+    transform: translateY(-2px);
+}
+
+.keyboard-button:active:not(:disabled) {
+    transform: translateY(0);
+}
+
+.keyboard-button.guessed {
+    background-color: #6c757d;
+    color: white;
+    opacity: 0.7;
+    cursor: not-allowed;
+}
+
+.keyboard-button:disabled {
+    cursor: not-allowed;
+}

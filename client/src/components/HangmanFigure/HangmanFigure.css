@@ -1,0 +1,15 @@
+.hangman-figure {
+    margin: 20px 0;
+}
+
+.hangman-svg {
+    background-color: #f8f9fa;
+    border-radius: 8px;
+}
+
+.figure-part {
+    stroke: #333;
+    stroke-width: 4;
+    stroke-linecap: round;
+    fill: transparent;
+}
