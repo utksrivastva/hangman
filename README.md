@@ -34,7 +34,7 @@ The server will run on http://localhost:3000
 ```bash
 cd client
 npm install
-npm start
+npm run dev
 ```
 
 The application will open in your browser at http://localhost:5173
